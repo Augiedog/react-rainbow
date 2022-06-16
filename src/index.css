@@ -12,3 +12,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p {
+  text-align: center;
+  text-emphasis: bold;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: brown;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.colorblock {
+  flex: 0 20%;
+  height: 50px;
+  margin-bottom: 1m;
+}
